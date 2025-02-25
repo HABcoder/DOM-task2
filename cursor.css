@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: cyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cursor{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(238, 39, 106);
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 0 0 5px rgb(252, 73, 133);
+}
+h1{
+    font-size: 200px;
+    text-decoration: underline;
+}
